@@ -1,5 +1,5 @@
 {% set name = "unicorn-binance-local-depth-cache" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-local-depth-cache-{{ version }}.tar.gz
-  sha256: 2ee1e2c199ae6310816af8aaf7c9f1eda2d2120446462eacb4f9dc7a371feb43
+  sha256: 710a57901bbba453cc76c08e2de11f3cd0f6c46882400434f9f29d2911f3778c
 
 build:
   number: 0
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://www.lucit.tech/unicorn-binance-local-depth-cache.html
-  summary: 'A local Binance DepthCache Manager for Python.'
+  summary: A local Binance DepthCache Manager for Python.
   description: |
     The Python package UNICORN Binance Local Depth Cache provides a local
     depth_cache for the Binance Exchanges Binance (+Testnet), Binance Futures
@@ -51,4 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - oliver-zehentleitner
-  
+
